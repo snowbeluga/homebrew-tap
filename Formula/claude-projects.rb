@@ -2,7 +2,7 @@ class ClaudeProjects < Formula
   desc "Terminal picker for jumping between projects and Claude Code sessions"
   homepage "https://github.com/snowbeluga/claude-projects"
   url "https://github.com/snowbeluga/claude-projects/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "09c2b2148c5f21a2d58d17db8f9deba29c287c9033bf5f244ad232c417f01fd9"
   license "MIT"
   head "https://github.com/snowbeluga/claude-projects.git", branch: "main"
 
