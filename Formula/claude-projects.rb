@@ -16,17 +16,19 @@ class ClaudeProjects < Formula
 
   def caveats
     <<~EOS
-      One more step: hook claude-projects into your shell. This adds one line to
-      ~/.zshrc and/or ~/.bashrc (a backup is made) and asks which folders to scan:
+      One more step. Hook claude-projects into your shell (adds one line to
+      ~/.zshrc and/or ~/.bashrc, with a backup, and asks which folders to scan):
 
         claude-projects install-shell
 
-      (Upgrading from a git install? Run #{opt_bin}/claude-projects install-shell
-      this once. Your old ~/.local/bin link comes first on PATH, and install-shell removes it.)
-
       Then open a new terminal tab and run:  claude projects   (or: cproj)
 
-      To remove the line again before `brew uninstall`:  claude-projects uninstall-shell
+      Switching from a git install? Run it by full path this once, because your
+      old ~/.local/bin link comes first on PATH (install-shell removes it):
+
+        #{opt_bin}/claude-projects install-shell
+
+      Uninstall: claude-projects uninstall-shell && brew uninstall claude-projects
     EOS
   end
 
