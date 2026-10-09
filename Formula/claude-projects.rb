@@ -21,6 +21,9 @@ class ClaudeProjects < Formula
 
         claude-projects install-shell
 
+      (Upgrading from a git install? Run #{opt_bin}/claude-projects install-shell
+      this once. Your old ~/.local/bin link comes first on PATH, and install-shell removes it.)
+
       Then open a new terminal tab and run:  claude projects   (or: cproj)
 
       To remove the line again before `brew uninstall`:  claude-projects uninstall-shell
