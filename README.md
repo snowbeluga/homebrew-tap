@@ -26,4 +26,4 @@ Full docs: https://github.com/snowbeluga/claude-projects
 
 ## Maintainers
 
-Don't edit the `url` / `sha256` by hand. `scripts/release.sh <version>` in the claude-projects repo tags the release and updates the formula.
+Don't edit the `url` / `sha256` by hand. Releases go through `scripts/release.sh` in the claude-projects repo. See its [CONTRIBUTING.md](https://github.com/snowbeluga/claude-projects/blob/main/CONTRIBUTING.md#releasing).
